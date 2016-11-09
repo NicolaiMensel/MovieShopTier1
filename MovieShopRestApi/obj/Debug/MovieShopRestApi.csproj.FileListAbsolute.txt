@@ -1,0 +1,184 @@
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\ApplicationInsights.config
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\roslyn\csc.exe
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\roslyn\System.Collections.Immutable.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\roslyn\vbc.exe
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\roslyn\VBCSCompiler.exe
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\roslyn\VBCSCompiler.exe.config
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\MovieShopRestApi.dll.config
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\MovieShopRestApi.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\MovieShopRestApi.pdb
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Antlr3.Runtime.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\EntityFramework.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\EntityFramework.SqlServer.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.Web.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.WindowsServer.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.ApplicationInsights.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.Google.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Web.Infrastructure.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\MovieShopDLL.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Newtonsoft.Json.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Owin.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Net.Http.Formatting.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.Helpers.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.Http.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.Http.Owin.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.Http.WebHost.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.Mvc.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.Optimization.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.Razor.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.WebPages.Deployment.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.WebPages.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.WebPages.Razor.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\WebGrease.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\MovieShopDLL.pdb
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.Web.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.WindowsServer.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.ApplicationInsights.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Newtonsoft.Json.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Net.Http.Formatting.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.Helpers.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.Http.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.Http.WebHost.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.Mvc.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.Optimization.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.Razor.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.WebPages.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.WebPages.Deployment.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.WebPages.Razor.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Antlr3.Runtime.pdb
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\EntityFramework.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\EntityFramework.SqlServer.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.Google.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\bin\System.Web.Http.Owin.xml
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\obj\Debug\MovieShopRestApi.csprojResolveAssemblyReference.cache
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\obj\Debug\MovieShopRestApi.dll
+c:\users\nicolai mensel\documents\visual studio 2015\Projects\MovieShopTier1\MovieShopRestApi\obj\Debug\MovieShopRestApi.pdb
+C:\School\MovieShopTier1\MovieShopRestApi\bin\ApplicationInsights.config
+C:\School\MovieShopTier1\MovieShopRestApi\bin\roslyn\csc.exe
+C:\School\MovieShopTier1\MovieShopRestApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\School\MovieShopTier1\MovieShopRestApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\School\MovieShopTier1\MovieShopRestApi\bin\roslyn\System.Collections.Immutable.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\roslyn\vbc.exe
+C:\School\MovieShopTier1\MovieShopRestApi\bin\roslyn\VBCSCompiler.exe
+C:\School\MovieShopTier1\MovieShopRestApi\bin\roslyn\VBCSCompiler.exe.config
+C:\School\MovieShopTier1\MovieShopRestApi\bin\MovieShopRestApi.dll.config
+C:\School\MovieShopTier1\MovieShopRestApi\bin\MovieShopRestApi.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\MovieShopRestApi.pdb
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Antlr3.Runtime.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\EntityFramework.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\EntityFramework.SqlServer.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.Web.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.WindowsServer.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.ApplicationInsights.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.Google.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Web.Infrastructure.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\MovieShopDLL.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Newtonsoft.Json.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Owin.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Net.Http.Formatting.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.Helpers.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.Http.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.Http.Owin.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.Http.WebHost.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.Mvc.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.Optimization.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.Razor.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.WebPages.Deployment.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.WebPages.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.WebPages.Razor.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\WebGrease.dll
+C:\School\MovieShopTier1\MovieShopRestApi\bin\MovieShopDLL.pdb
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.Web.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AI.WindowsServer.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.ApplicationInsights.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Newtonsoft.Json.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Net.Http.Formatting.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.Helpers.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.Http.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.Http.WebHost.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.Mvc.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.Optimization.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.Razor.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.WebPages.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.WebPages.Deployment.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.WebPages.Razor.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Antlr3.Runtime.pdb
+C:\School\MovieShopTier1\MovieShopRestApi\bin\EntityFramework.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\EntityFramework.SqlServer.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.Google.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\School\MovieShopTier1\MovieShopRestApi\bin\System.Web.Http.Owin.xml
+C:\School\MovieShopTier1\MovieShopRestApi\obj\Debug\MovieShopRestApi.csprojResolveAssemblyReference.cache
+C:\School\MovieShopTier1\MovieShopRestApi\obj\Debug\MovieShopRestApi.dll
+C:\School\MovieShopTier1\MovieShopRestApi\obj\Debug\MovieShopRestApi.pdb

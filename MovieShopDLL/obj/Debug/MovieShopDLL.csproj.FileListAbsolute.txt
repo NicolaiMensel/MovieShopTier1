@@ -1,0 +1,19 @@
+C:\Users\Nicolai Mensel\Documents\Visual Studio 2015\Projects\MovieShopTier1\MovieShopDLL\bin\Debug\MovieShopDLL.dll.config
+C:\Users\Nicolai Mensel\Documents\Visual Studio 2015\Projects\MovieShopTier1\MovieShopDLL\bin\Debug\MovieShopDLL.dll
+C:\Users\Nicolai Mensel\Documents\Visual Studio 2015\Projects\MovieShopTier1\MovieShopDLL\bin\Debug\MovieShopDLL.pdb
+C:\Users\Nicolai Mensel\Documents\Visual Studio 2015\Projects\MovieShopTier1\MovieShopDLL\bin\Debug\EntityFramework.dll
+C:\Users\Nicolai Mensel\Documents\Visual Studio 2015\Projects\MovieShopTier1\MovieShopDLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nicolai Mensel\Documents\Visual Studio 2015\Projects\MovieShopTier1\MovieShopDLL\bin\Debug\EntityFramework.xml
+C:\Users\Nicolai Mensel\Documents\Visual Studio 2015\Projects\MovieShopTier1\MovieShopDLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nicolai Mensel\Documents\Visual Studio 2015\Projects\MovieShopTier1\MovieShopDLL\obj\Debug\MovieShopDLL.csprojResolveAssemblyReference.cache
+C:\Users\Nicolai Mensel\Documents\Visual Studio 2015\Projects\MovieShopTier1\MovieShopDLL\obj\Debug\MovieShopDLL.dll
+C:\Users\Nicolai Mensel\Documents\Visual Studio 2015\Projects\MovieShopTier1\MovieShopDLL\obj\Debug\MovieShopDLL.pdb
+C:\School\MovieShopTier1\MovieShopDLL\bin\Debug\MovieShopDLL.dll.config
+C:\School\MovieShopTier1\MovieShopDLL\bin\Debug\MovieShopDLL.dll
+C:\School\MovieShopTier1\MovieShopDLL\bin\Debug\MovieShopDLL.pdb
+C:\School\MovieShopTier1\MovieShopDLL\bin\Debug\EntityFramework.dll
+C:\School\MovieShopTier1\MovieShopDLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\School\MovieShopTier1\MovieShopDLL\bin\Debug\EntityFramework.xml
+C:\School\MovieShopTier1\MovieShopDLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\School\MovieShopTier1\MovieShopDLL\obj\Debug\MovieShopDLL.dll
+C:\School\MovieShopTier1\MovieShopDLL\obj\Debug\MovieShopDLL.pdb
