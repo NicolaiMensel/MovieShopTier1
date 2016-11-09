@@ -1,0 +1,1 @@
+C:\School\MovieShopTier1\MovieShopRestApi\obj\Release\MovieShopRestApi.csprojResolveAssemblyReference.cache
