@@ -21,7 +21,7 @@ namespace MovieShopRestApi.Controllers
         // GET: api/Genres
         public IQueryable<Genre> GetGenres()
         {
-            return (IQueryable<Genre>)_genreRepository.ReadAll();
+            return new EnumerableQuery<Genre>(_genreRepository.ReadAll());
         }
 
         // GET: api/Genres/5

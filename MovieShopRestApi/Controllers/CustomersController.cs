@@ -21,7 +21,7 @@ namespace MovieShopRestApi.Controllers
         // GET: api/Customers
         public IQueryable<Customer> GetCustomers()
         {
-            return (IQueryable<Customer>) _customeRepository.ReadAll();
+            return new EnumerableQuery<Customer>(_customeRepository.ReadAll());
         }
 
         // GET: api/Customers/5

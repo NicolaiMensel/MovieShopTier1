@@ -21,7 +21,7 @@ namespace MovieShopRestApi.Controllers
         // GET: api/Addresses
         public IQueryable<Address> GetAddresses()
         {
-            return (IQueryable<Address>)_addressRepository.ReadAll();
+            return new EnumerableQuery<Address>(_addressRepository.ReadAll());
         }
 
         // GET: api/Addresses/5

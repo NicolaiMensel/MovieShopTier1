@@ -21,7 +21,7 @@ namespace MovieShopRestApi.Controllers
         // GET: api/Movies
         public IQueryable<Movie> GetMovies()
         {
-            return (IQueryable<Movie>) _movieRepository.ReadAll();
+            return new EnumerableQuery<Movie>(_movieRepository.ReadAll());
         }
 
         // GET: api/Movies/5

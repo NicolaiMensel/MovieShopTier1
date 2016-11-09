@@ -21,7 +21,7 @@ namespace MovieShopRestApi.Controllers
         // GET: api/Orders
         public IQueryable<Order> GetOrders()
         {
-            return (IQueryable<Order>) _orderRepository.ReadAll();
+            return new EnumerableQuery<Order>(_orderRepository.ReadAll());
         }
 
         // GET: api/Orders/5

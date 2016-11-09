@@ -188,7 +188,7 @@ namespace MovieShopDLL.Context
                 var address = new Address() {City = "dk", StreetName = "ost"};
                 context.Addresses.Add(address);
 
-                var customer = new Customer() {FirstName = "Bille" + i, LastName = "Iversen" + i * 2};
+                var customer = new Customer() {FirstName = "Bille" + i, LastName = "Iversen" + i * 2, Email = "BilleIversen" + i + "@gmail.com"};
                 customer.Address = address;
                 customer = context.Customers.Add(customer);
 

@@ -17,3 +17,4 @@ C:\School\MovieShopTier1\MovieShopDLL\bin\Debug\EntityFramework.xml
 C:\School\MovieShopTier1\MovieShopDLL\bin\Debug\EntityFramework.SqlServer.xml
 C:\School\MovieShopTier1\MovieShopDLL\obj\Debug\MovieShopDLL.dll
 C:\School\MovieShopTier1\MovieShopDLL\obj\Debug\MovieShopDLL.pdb
+C:\School\MovieShopTier1\MovieShopDLL\obj\Debug\MovieShopDLL.csprojResolveAssemblyReference.cache
