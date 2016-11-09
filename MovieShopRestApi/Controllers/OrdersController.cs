@@ -16,19 +16,19 @@ namespace MovieShopRestApi.Controllers
 {
     public class OrdersController : ApiController
     {
-        private IRepository<Order,int> _ordeRepository = new DLLFacade().GetOrderRepository();
+        private IRepository<Order,int> _orderRepository = new DLLFacade().GetOrderRepository();
 
         // GET: api/Orders
         public IQueryable<Order> GetOrders()
         {
-            return db.Orders;
+            return (IQueryable<Order>) _orderRepository.ReadAll();
         }
 
         // GET: api/Orders/5
         [ResponseType(typeof(Order))]
         public IHttpActionResult GetOrder(int id)
         {
-            Order order = db.Orders.Find(id);
+            Order order = _orderRepository.Read(id);
             if (order == null)
             {
                 return NotFound();
@@ -51,11 +51,9 @@ namespace MovieShopRestApi.Controllers
                 return BadRequest();
             }
 
-            db.Entry(order).State = EntityState.Modified;
-
             try
             {
-                db.SaveChanges();
+                _orderRepository.Update(order);
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -81,8 +79,7 @@ namespace MovieShopRestApi.Controllers
                 return BadRequest(ModelState);
             }
 
-            db.Orders.Add(order);
-            db.SaveChanges();
+            _orderRepository.Create(order);
 
             return CreatedAtRoute("DefaultApi", new { id = order.Id }, order);
         }
@@ -91,30 +88,20 @@ namespace MovieShopRestApi.Controllers
         [ResponseType(typeof(Order))]
         public IHttpActionResult DeleteOrder(int id)
         {
-            Order order = db.Orders.Find(id);
+            Order order = _orderRepository.Read(id);
             if (order == null)
             {
                 return NotFound();
             }
 
-            db.Orders.Remove(order);
-            db.SaveChanges();
+            _orderRepository.Delete(id);
 
             return Ok(order);
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
-
         private bool OrderExists(int id)
         {
-            return db.Orders.Count(e => e.Id == id) > 0;
+            return _orderRepository.ReadAll().Count(e => e.Id == id) > 0;
         }
     }
 }
