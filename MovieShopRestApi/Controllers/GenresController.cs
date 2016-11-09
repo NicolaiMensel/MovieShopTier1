@@ -8,6 +8,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
+using MovieShopDLL;
 using MovieShopDLL.Context;
 using MovieShopDLL.Entities;
 
@@ -15,19 +16,19 @@ namespace MovieShopRestApi.Controllers
 {
     public class GenresController : ApiController
     {
-        private MovieShopContext db = new MovieShopContext();
+        private IRepository<Genre, int> _genreRepository = new DLLFacade().GetGenreRepository();
 
         // GET: api/Genres
         public IQueryable<Genre> GetGenres()
         {
-            return db.Genres;
+            return (IQueryable<Genre>)_genreRepository.ReadAll();
         }
 
         // GET: api/Genres/5
         [ResponseType(typeof(Genre))]
         public IHttpActionResult GetGenre(int id)
         {
-            Genre genre = db.Genres.Find(id);
+            Genre genre = _genreRepository.Read(id);
             if (genre == null)
             {
                 return NotFound();
@@ -50,11 +51,9 @@ namespace MovieShopRestApi.Controllers
                 return BadRequest();
             }
 
-            db.Entry(genre).State = EntityState.Modified;
-
             try
             {
-                db.SaveChanges();
+                _genreRepository.Update(genre);
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -80,8 +79,7 @@ namespace MovieShopRestApi.Controllers
                 return BadRequest(ModelState);
             }
 
-            db.Genres.Add(genre);
-            db.SaveChanges();
+            _genreRepository.Create(genre);
 
             return CreatedAtRoute("DefaultApi", new { id = genre.Id }, genre);
         }
@@ -90,30 +88,20 @@ namespace MovieShopRestApi.Controllers
         [ResponseType(typeof(Genre))]
         public IHttpActionResult DeleteGenre(int id)
         {
-            Genre genre = db.Genres.Find(id);
+            Genre genre = _genreRepository.Read(id);
             if (genre == null)
             {
                 return NotFound();
             }
 
-            db.Genres.Remove(genre);
-            db.SaveChanges();
+            _genreRepository.Delete(id);
 
             return Ok(genre);
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
-
         private bool GenreExists(int id)
         {
-            return db.Genres.Count(e => e.Id == id) > 0;
+            return _genreRepository.ReadAll().Count(e => e.Id == id) > 0;
         }
     }
 }

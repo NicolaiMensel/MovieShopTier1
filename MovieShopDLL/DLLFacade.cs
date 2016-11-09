@@ -14,6 +14,7 @@ namespace MovieShopDLL
         private IRepository<Movie, int> mm;
         private IRepository<Order, int> om;
         private IRepository<Genre, int> gm;
+        private IRepository<Address, int> am;
 
         public IRepository<Customer, int> GetCustomerRepository()
         {
@@ -33,6 +34,11 @@ namespace MovieShopDLL
         public IRepository<Genre, int> GetGenreRepository()
         {
             return gm ?? (gm = new GenreRepository());
+        }
+
+        public IRepository<Address, int> GetAddressRepository()
+        {
+            return am ?? (am = new AddressRepository());
         }
     }
 }
