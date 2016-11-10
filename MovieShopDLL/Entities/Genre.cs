@@ -10,7 +10,7 @@ namespace MovieShopDLL.Entities
     public class Genre : AbstractEntity
     {
         public string Name { get; set; }
-        [JsonIgnore]
+        //[JsonIgnore]
         public List<Movie> Movies { get; set; }
     }
 }
