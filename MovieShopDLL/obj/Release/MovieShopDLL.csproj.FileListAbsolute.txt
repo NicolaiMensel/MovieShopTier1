@@ -8,3 +8,13 @@ C:\School\MovieShopTier1\MovieShopDLL\bin\Release\EntityFramework.SqlServer.xml
 C:\School\MovieShopTier1\MovieShopDLL\obj\Release\MovieShopDLL.csprojResolveAssemblyReference.cache
 C:\School\MovieShopTier1\MovieShopDLL\obj\Release\MovieShopDLL.dll
 C:\School\MovieShopTier1\MovieShopDLL\obj\Release\MovieShopDLL.pdb
+C:\Users\Greis\Documents\GitHub\Projects\TmpMovieShopCopy\MovieShopTier1\MovieShopDLL\bin\Release\MovieShopDLL.dll.config
+C:\Users\Greis\Documents\GitHub\Projects\TmpMovieShopCopy\MovieShopTier1\MovieShopDLL\bin\Release\MovieShopDLL.dll
+C:\Users\Greis\Documents\GitHub\Projects\TmpMovieShopCopy\MovieShopTier1\MovieShopDLL\bin\Release\MovieShopDLL.pdb
+C:\Users\Greis\Documents\GitHub\Projects\TmpMovieShopCopy\MovieShopTier1\MovieShopDLL\bin\Release\EntityFramework.dll
+C:\Users\Greis\Documents\GitHub\Projects\TmpMovieShopCopy\MovieShopTier1\MovieShopDLL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Greis\Documents\GitHub\Projects\TmpMovieShopCopy\MovieShopTier1\MovieShopDLL\bin\Release\EntityFramework.xml
+C:\Users\Greis\Documents\GitHub\Projects\TmpMovieShopCopy\MovieShopTier1\MovieShopDLL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Greis\Documents\GitHub\Projects\TmpMovieShopCopy\MovieShopTier1\MovieShopDLL\obj\Release\MovieShopDLL.csprojResolveAssemblyReference.cache
+C:\Users\Greis\Documents\GitHub\Projects\TmpMovieShopCopy\MovieShopTier1\MovieShopDLL\obj\Release\MovieShopDLL.dll
+C:\Users\Greis\Documents\GitHub\Projects\TmpMovieShopCopy\MovieShopTier1\MovieShopDLL\obj\Release\MovieShopDLL.pdb
