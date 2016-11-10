@@ -28,4 +28,3 @@ C:\Users\Greis\Documents\GitHub\Projects\TmpMovieShopCopy\MovieShopTier1\MovieSh
 C:\Users\Greis\Documents\GitHub\Projects\TmpMovieShopCopy\MovieShopTier1\MovieShopDLL\obj\Debug\MovieShopDLL.dll
 C:\Users\Greis\Documents\GitHub\Projects\TmpMovieShopCopy\MovieShopTier1\MovieShopDLL\obj\Debug\MovieShopDLL.pdb
 C:\Users\Greis\Documents\GitHub\Projects\TmpMovieShopCopy\MovieShopTier1\MovieShopDLL\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Greis\Documents\GitHub\Projects\TmpMovieShopCopy\MovieShopTier1\MovieShopDLL\obj\Debug\MovieShopDLL.csprojResolveAssemblyReference.cache
