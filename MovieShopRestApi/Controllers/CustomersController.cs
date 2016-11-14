@@ -53,7 +53,8 @@ namespace MovieShopRestApi.Controllers
 
             try
             {
-                _customeRepository.Update(customer);
+                customer = _customeRepository.Update(customer);
+                return Ok(customer);
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -66,8 +67,6 @@ namespace MovieShopRestApi.Controllers
                     throw;
                 }
             }
-
-            return StatusCode(HttpStatusCode.NoContent);
         }
 
         // POST: api/Customers

@@ -46,8 +46,11 @@ namespace MovieShopDLL.Repositories
         public Movie Update(Movie t)
         {
             using (var dbContext = new MovieShopContext())
-            {
-                dbContext.Entry(t).State = EntityState.Modified;
+            {              
+                t.Genre = dbContext.Genres.Include("Movies").FirstOrDefault(x => x.Id == t.Genre.Id);
+                var oldMovie = dbContext.Movies.FirstOrDefault(x => x.Id == t.Id);
+                oldMovie.Genre = t.Genre;
+                dbContext.Entry(oldMovie).CurrentValues.SetValues(t);
                 dbContext.SaveChanges();
                 return t;
             }

@@ -78,7 +78,6 @@ namespace MovieShopRestApi.Controllers
             {
                 return BadRequest(ModelState);
             }
-
             _movieRepository.Create(movie);
 
             return CreatedAtRoute("DefaultApi", new { id = movie.Id }, movie);

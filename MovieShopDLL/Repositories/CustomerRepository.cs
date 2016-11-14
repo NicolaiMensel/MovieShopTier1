@@ -32,7 +32,7 @@ namespace MovieShopDLL.Repositories
         {
             using (dbContext = new MovieShopContext())
             {
-                return dbContext.Customers.Include("Orders").FirstOrDefault(x => x.Id == id);
+                return dbContext.Customers.Include("Orders").Include("Address").FirstOrDefault(x => x.Id == id);
             }
         }
 
@@ -40,7 +40,7 @@ namespace MovieShopDLL.Repositories
         {
             using (dbContext = new MovieShopContext())
             {
-                return dbContext.Customers.ToList();
+                return dbContext.Customers.Include("Address").ToList();
             }
         }
 
@@ -49,8 +49,13 @@ namespace MovieShopDLL.Repositories
 
             using (dbContext = new MovieShopContext())
             {
-                dbContext.Entry(t).State = System.Data.Entity.EntityState.Modified;
-                dbContext.SaveChanges();
+                var oldCustomer = dbContext.Customers.FirstOrDefault(x => x.Id == t.Id);
+                if (oldCustomer != null)
+                {
+                    oldCustomer.Address = t.Address;
+                    dbContext.Entry(oldCustomer).CurrentValues.SetValues(t);
+                    dbContext.SaveChanges();
+                }
                 return t;
             }
         }

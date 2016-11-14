@@ -16,6 +16,8 @@ namespace MovieShopDLL.Repositories
         {
             using (dbContext = new MovieShopContext())
             {
+                dbContext.Entry(t.Movie).State = EntityState.Unchanged;
+                dbContext.Entry(t.Customer).State = EntityState.Unchanged;
                 dbContext.Orders.Add(t);
                 dbContext.SaveChanges();
                 return t;
@@ -42,9 +44,18 @@ namespace MovieShopDLL.Repositories
         {
             using (dbContext = new MovieShopContext())
             {
-                dbContext.Entry(t).State = System.Data.Entity.EntityState.Modified;
-                dbContext.SaveChanges();
-                return t;
+                var oldOrder = dbContext.Orders.FirstOrDefault(x => x.Id == t.Id);
+                if (oldOrder != null)
+                {
+                    if (t.Customer != null)
+                    {
+                        oldOrder.Customer = dbContext.Customers.FirstOrDefault(x => x.Id == t.Customer.Id);
+                    }
+                    oldOrder.Movie = dbContext.Movies.FirstOrDefault(x => x.Id == t.Movie.Id);
+                    dbContext.Entry(oldOrder).CurrentValues.SetValues(t);
+                    dbContext.SaveChanges();
+                }
+                return dbContext.Orders.FirstOrDefault(x => x.Id == t.Id);
             }
         }
 
