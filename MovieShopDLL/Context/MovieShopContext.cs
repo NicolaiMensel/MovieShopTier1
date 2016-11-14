@@ -10,7 +10,7 @@ namespace MovieShopDLL.Context
 {
     public class MovieShopContext : DbContext
     {
-        public MovieShopContext() : base("MovieStoreDB")
+        public MovieShopContext() : base("name=DefaultConnection")
         {
 
             Database.SetInitializer(new MovieDBInitializer());
@@ -60,6 +60,7 @@ namespace MovieShopDLL.Context
                 var movie = new Movie()
                 {
                     Title = "Test" + i,
+                    GenreId = genre.Id,
                     Genre = genre,
                     ImageUrl = "https://i.ytimg.com/vi/I7WwCzmkBh0/maxresdefault.jpg",
                     MovieUrl = "https://www.youtube.com/embed/bnYlcVh-awE",
@@ -79,6 +80,7 @@ namespace MovieShopDLL.Context
                 var movie2 = new Movie()
                 {
                     Title = "Test" + i,
+                    GenreId = genre1.Id,
                     Genre = genre1,
                     ImageUrl = "https://i.ytimg.com/vi/I7WwCzmkBh0/maxresdefault.jpg",
                     MovieUrl = "https://www.youtube.com/embed/bnYlcVh-awE",
@@ -96,6 +98,7 @@ namespace MovieShopDLL.Context
                 var movie3 = new Movie()
                 {
                     Title = "Test" + i,
+                    GenreId = genre2.Id,
                     Genre = genre2,
                     ImageUrl = "https://i.ytimg.com/vi/I7WwCzmkBh0/maxresdefault.jpg",
                     MovieUrl = "https://www.youtube.com/embed/bnYlcVh-awE",
@@ -113,6 +116,7 @@ namespace MovieShopDLL.Context
                 var movie4 = new Movie()
                 {
                     Title = "Test" + i,
+                    GenreId = genre3.Id,
                     Genre = genre3,
                     ImageUrl = "https://i.ytimg.com/vi/I7WwCzmkBh0/maxresdefault.jpg",
                     MovieUrl = "https://www.youtube.com/embed/bnYlcVh-awE",
@@ -130,6 +134,7 @@ namespace MovieShopDLL.Context
                 var movie5 = new Movie()
                 {
                     Title = "Test" + i,
+                    GenreId = genre4.Id,
                     Genre = genre4,
                     ImageUrl = "https://i.ytimg.com/vi/I7WwCzmkBh0/maxresdefault.jpg",
                     MovieUrl = "https://www.youtube.com/embed/bnYlcVh-awE",
@@ -147,6 +152,7 @@ namespace MovieShopDLL.Context
                 var movie6 = new Movie()
                 {
                     Title = "Test" + i,
+                    GenreId = genre5.Id,
                     Genre = genre5,
                     ImageUrl = "https://i.ytimg.com/vi/I7WwCzmkBh0/maxresdefault.jpg",
                     MovieUrl = "https://www.youtube.com/embed/bnYlcVh-awE",
@@ -164,6 +170,7 @@ namespace MovieShopDLL.Context
                 var movie7 = new Movie()
                 {
                     Title = "Test" + i,
+                    GenreId = genre6.Id,
                     Genre = genre6,
                     ImageUrl = "https://i.ytimg.com/vi/I7WwCzmkBh0/maxresdefault.jpg",
                     MovieUrl = "https://www.youtube.com/embed/bnYlcVh-awE",
