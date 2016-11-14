@@ -26,8 +26,10 @@ namespace MovieShopDLL.Repositories
         {
             using (var dbContext = new MovieShopContext())
             {
-                return dbContext.Genres.Include("Movies").FirstOrDefault(x => x.Id == id);
+                var genre = dbContext.Genres.Include("Movies").FirstOrDefault(x => x.Id == id);
+                return genre;
             }
+            
         }
 
         public List<Genre> ReadAll()
@@ -46,7 +48,7 @@ namespace MovieShopDLL.Repositories
                 dbContext.SaveChanges();
                 return t;
             }
-
+            
         }
 
         public bool Delete(int id)

@@ -14,10 +14,9 @@ namespace MovieShopDLL.Repositories
         private IRepository<Genre, int> _genreRepository = new DLLFacade().GetGenreRepository();
 
         public Movie Create(Movie t)
-        {         
+        {
             using (var dbContext = new MovieShopContext())
             {
-                t.Genre = dbContext.Genres.FirstOrDefault(g => g.Id == t.Genre.Id);
                 dbContext.Movies.Add(t);
                 dbContext.SaveChanges();
                 return t;
