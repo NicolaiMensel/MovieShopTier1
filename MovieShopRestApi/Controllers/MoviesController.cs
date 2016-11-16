@@ -14,7 +14,7 @@ using MovieShopDLL.Entities;
 
 namespace MovieShopRestApi.Controllers
 {
-    //[Authorize]
+
     public class MoviesController : ApiController
     {
         private IRepository<Movie, int> _movieRepository = new DLLFacade().GetMovieRepository();

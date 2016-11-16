@@ -14,12 +14,12 @@ using MovieShopDLL.Entities;
 
 namespace MovieShopRestApi.Controllers
 {
+    [Authorize]
     public class CustomersController : ApiController
     {
         private IRepository<Customer, int> _customeRepository = new DLLFacade().GetCustomerRepository();
         
         // GET: api/Customers
-
         public IQueryable<Customer> GetCustomers()
         {
             return new EnumerableQuery<Customer>(_customeRepository.ReadAll());
@@ -40,6 +40,7 @@ namespace MovieShopRestApi.Controllers
 
         // PUT: api/Customers/5
         [ResponseType(typeof(void))]
+
         public IHttpActionResult PutCustomer(int id, Customer customer)
         {
             if (!ModelState.IsValid)
