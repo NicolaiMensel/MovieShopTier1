@@ -14,6 +14,7 @@ using MovieShopDLL.Entities;
 
 namespace MovieShopRestApi.Controllers
 {
+    //[Authorize]
     public class MoviesController : ApiController
     {
         private IRepository<Movie, int> _movieRepository = new DLLFacade().GetMovieRepository();
@@ -39,6 +40,7 @@ namespace MovieShopRestApi.Controllers
 
         // PUT: api/Movies/5
         [ResponseType(typeof(void))]
+        [Authorize(Roles = "Admin")]
         public IHttpActionResult PutMovie(int id, Movie movie)
         {
             if (!ModelState.IsValid)
@@ -72,6 +74,7 @@ namespace MovieShopRestApi.Controllers
 
         // POST: api/Movies
         [ResponseType(typeof(Movie))]
+        [Authorize(Roles = "Admin")]
         public IHttpActionResult PostMovie(Movie movie)
         {
             if (!ModelState.IsValid)
@@ -85,6 +88,7 @@ namespace MovieShopRestApi.Controllers
 
         // DELETE: api/Movies/5
         [ResponseType(typeof(Movie))]
+        [Authorize(Roles = "Admin")]
         public IHttpActionResult DeleteMovie(int id)
         {
             Movie movie = _movieRepository.Read(id);

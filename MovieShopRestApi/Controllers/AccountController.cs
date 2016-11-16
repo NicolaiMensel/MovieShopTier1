@@ -68,9 +68,9 @@ namespace MovieShopRestApi.Controllers
 
         // POST api/Account/Logout
         [Route("Logout")]
-        public IHttpActionResult Logout()
-        {
-            Authentication.SignOut(CookieAuthenticationDefaults.AuthenticationType);
+        public IHttpActionResult Logout(AuthenticationProperties properties)
+        {   
+            Authentication.SignOut(properties);
             return Ok();
         }
 

@@ -14,18 +14,20 @@ using MovieShopDLL.Entities;
 
 namespace MovieShopRestApi.Controllers
 {
-    [Authorize]
     public class OrdersController : ApiController
     {
+        
         private IRepository<Order,int> _orderRepository = new DLLFacade().GetOrderRepository();
 
         // GET: api/Orders
+        [Authorize(Roles = "Admin")]
         public IQueryable<Order> GetOrders()
         {
             return new EnumerableQuery<Order>(_orderRepository.ReadAll());
         }
 
         // GET: api/Orders/5
+        [Authorize(Roles = "Admin")]
         [ResponseType(typeof(Order))]
         public IHttpActionResult GetOrder(int id)
         {
@@ -39,6 +41,7 @@ namespace MovieShopRestApi.Controllers
         }
 
         // PUT: api/Orders/5
+        [Authorize(Roles = "Admin")]
         [ResponseType(typeof(void))]
         public IHttpActionResult PutOrder(int id, Order order)
         {
@@ -72,6 +75,7 @@ namespace MovieShopRestApi.Controllers
         }
 
         // POST: api/Orders
+        [Authorize]
         [ResponseType(typeof(Order))]
         public IHttpActionResult PostOrder(Order order)
         {
@@ -86,6 +90,7 @@ namespace MovieShopRestApi.Controllers
         }
 
         // DELETE: api/Orders/5
+        [Authorize(Roles = "Admin")]
         [ResponseType(typeof(Order))]
         public IHttpActionResult DeleteOrder(int id)
         {

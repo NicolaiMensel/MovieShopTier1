@@ -14,11 +14,13 @@ using MovieShopDLL.Entities;
 
 namespace MovieShopRestApi.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class GenresController : ApiController
     {
         private IRepository<Genre, int> _genreRepository = new DLLFacade().GetGenreRepository();
 
         // GET: api/Genres
+        [AllowAnonymous]
         public IQueryable<Genre> GetGenres()
         {
             return new EnumerableQuery<Genre>(_genreRepository.ReadAll());
@@ -26,6 +28,7 @@ namespace MovieShopRestApi.Controllers
 
         // GET: api/Genres/5
         [ResponseType(typeof(Genre))]
+        [AllowAnonymous]
         public IHttpActionResult GetGenre(int id)
         {
             Genre genre = _genreRepository.Read(id);
@@ -39,6 +42,7 @@ namespace MovieShopRestApi.Controllers
 
         // PUT: api/Genres/5
         [ResponseType(typeof(void))]
+        [AllowAnonymous]
         public IHttpActionResult PutGenre(int id, Genre genre)
         {
             if (!ModelState.IsValid)

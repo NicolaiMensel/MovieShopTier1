@@ -14,11 +14,13 @@ using MovieShopDLL.Entities;
 
 namespace MovieShopRestApi.Controllers
 {
+    [Authorize]
     public class AddressesController : ApiController
     {
         private IRepository<Address, int> _addressRepository = new DLLFacade().GetAddressRepository();
 
         // GET: api/Addresses
+        [Authorize(Roles = "Admin")]
         public IQueryable<Address> GetAddresses()
         {
             return new EnumerableQuery<Address>(_addressRepository.ReadAll());
@@ -26,6 +28,7 @@ namespace MovieShopRestApi.Controllers
 
         // GET: api/Addresses/5
         [ResponseType(typeof(Address))]
+        
         public IHttpActionResult GetAddress(int id)
         {
             Address address = _addressRepository.Read(id);
@@ -72,6 +75,7 @@ namespace MovieShopRestApi.Controllers
 
         // POST: api/Addresses
         [ResponseType(typeof(Address))]
+
         public IHttpActionResult PostAddress(Address address)
         {
             if (!ModelState.IsValid)

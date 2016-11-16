@@ -17,8 +17,9 @@ namespace MovieShopRestApi.Controllers
     public class CustomersController : ApiController
     {
         private IRepository<Customer, int> _customeRepository = new DLLFacade().GetCustomerRepository();
-
+        
         // GET: api/Customers
+
         public IQueryable<Customer> GetCustomers()
         {
             return new EnumerableQuery<Customer>(_customeRepository.ReadAll());
