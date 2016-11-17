@@ -37,7 +37,7 @@ namespace MovieShopDLL.Repositories
             using (var dbContext = new MovieShopContext())
             {
 
-                var movies = dbContext.Movies.Include("Genre").Include("Orders").ToList();
+               var movies = dbContext.Movies.Include("Genre").Include("Orders").ToList();
                 return movies;
             }
         }
