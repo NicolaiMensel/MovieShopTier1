@@ -13,7 +13,7 @@ namespace MovieShopDLL.Context
         public MovieShopContext() : base("name=DefaultConnection")
         {
 
-            Database.SetInitializer(new MovieDBInitializer());
+            //Database.SetInitializer(new MovieDBInitializer());
 
         }
 
